@@ -1,6 +1,6 @@
 # JSONexercise
 
-Et Express project hvor json data bliver fodret til html. Det kører på localhost:3000 når programmet er startet.
+Et Express project hvor json data bliver fodret til html. Det kører på localhost:3000 når programmet er startet. <br>
 Løsningen er baseret på Dynamic HTML Table tutorial fra W3schools. <br>
 Link: https://www.w3schools.com/js/js_json_html.asp
 
