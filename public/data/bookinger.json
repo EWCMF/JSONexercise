@@ -1,0 +1,22 @@
+{
+    "booking1": {
+        "dato": "22-09-2020",
+        "tid": "13:00",
+        "bruger": "bruger1",
+        "bil": "bil2"
+    },
+
+    "booking2": {
+        "dato": "23-09-2020",
+        "tid": "14:00",
+        "bruger": "bruger2",
+        "bil": "bil1"
+    },
+
+    "booking3": {
+        "dato": "23-09-2020",
+        "tid": "15:00",
+        "bruger": "bruger3",
+        "bil": "bil3"
+    }
+}

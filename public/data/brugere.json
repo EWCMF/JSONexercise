@@ -1,0 +1,14 @@
+{
+    "bruger1": {
+        "navn": "Lars",
+        "køn": "mand"
+    },
+    "bruger2": {
+        "navn": "Signe",
+        "køn": "kvinde"
+    },
+    "bruger3": {
+        "navn": "Hans",
+        "køn": "mand"
+    }
+}

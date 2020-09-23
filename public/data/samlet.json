@@ -1,0 +1,59 @@
+{
+    "biler": [
+        {
+            "navn": "Ford",
+            "farve": "sølv",
+            "type": "sedan"
+        },
+
+        {
+            "navn": "Peugeot",
+            "farve": "hvid",
+            "type": "hatchback"
+        },
+
+        {
+            "navn": "Toyota",
+            "farve": "Rød",
+            "type": "SUV"
+        }
+    ],
+
+    "brugere": [
+        {
+            "navn": "Lars",
+            "køn": "mand"
+        },
+        {
+            "navn": "Signe",
+            "køn": "kvinde"
+        },
+        {
+            "navn": "Hans",
+            "køn": "mand"
+        }
+    ],
+
+    "bookinger": [
+        {
+            "dato": "22-09-2020",
+            "tid": "13:00",
+            "bruger": "bruger1",
+            "bil": "bil2"
+        },
+
+        {
+            "dato": "23-09-2020",
+            "tid": "14:00",
+            "bruger": "bruger2",
+            "bil": "bil1"
+        },
+
+        {
+            "dato": "23-09-2020",
+            "tid": "15:00",
+            "bruger": "bruger3",
+            "bil": "bil3"
+        }
+    ]
+}

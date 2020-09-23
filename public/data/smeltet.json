@@ -1,0 +1,46 @@
+{
+    "booking1": {
+        "dato": "22-09-2020",
+        "tid": "13:00",
+        "krPrDag": 200,
+        "bruger": {
+            "navn": "Lars",
+            "køn": "mand"
+        },
+        "bil": {
+            "navn": "Peugeot",
+            "farve": "hvid",
+            "type": "hatchback"
+        }
+    },
+
+    "booking2": {
+        "dato": "23-09-2020",
+        "tid": "14:00",
+        "krPrDag": 260,
+        "bruger": {
+            "navn": "Signe",
+            "køn": "kvinde"
+        },
+        "bil": {
+            "navn": "Ford",
+            "farve": "sølv",
+            "type": "sedan"
+        }
+    },
+
+    "booking3": {
+        "dato": "23-09-2020",
+        "tid": "15:00",
+        "krPrDag": 250,
+        "bruger": {
+            "navn": "Hans",
+            "køn": "mand"
+        },
+        "bil": {
+            "navn": "Toyota",
+            "farve": "Rød",
+            "type": "SUV"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+    {
+        "bil1": {
+            "navn": "Ford",
+            "farve": "sølv",
+            "type": "sedan"
+        },
+
+        "bil2": {
+            "navn": "Peugeot",
+            "farve": "hvid",
+            "type": "hatchback"
+        },
+
+        "bil3": {
+            "navn": "Toyota",
+            "farve": "Rød",
+            "type": "SUV"
+        }
+    }

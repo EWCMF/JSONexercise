@@ -1,0 +1,64 @@
+<select id="myselect" onchange="change_myselect(this.value)">
+    <option value="">Choose an option:</option>
+    <option value="biler">Biler</option>
+    <option value="brugere">Brugere</option>
+    <option value="bookinger">Bookinger</option>
+</select>
+
+<p id="demo"></p>
+
+<script>
+    function change_myselect(sel) {
+        var obj, dbParam, xmlhttp, myObj, x, txt = "";
+        obj = { table: sel, limit: 20 };
+        dbParam = JSON.stringify(obj);
+        xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function () {
+            if (this.readyState == 4 && this.status == 200 || this.status == 304) {
+                myObj = JSON.parse(this.responseText);
+                
+
+                for (i = 0; i < myObj[sel].length; i++) {
+                    if (sel === "biler") {
+                        txt += "<table border='1'>"
+
+                        let element = myObj[sel][i];
+                        txt += "<tr><td>Navn</td><td>" + element.navn + "</td></tr>";
+                        txt += "<tr><td>Farve</td><td>" + element.farve + "</td></tr>";
+                        txt += "<tr><td>Type</td><td>" + element.type + "</td></tr>";
+
+                        txt += "</table><br>"
+                    }
+
+                    if (sel === "brugere") {
+                        txt += "<table border='1'>"
+                        
+                        let element = myObj[sel][i];
+                        txt += "<tr><td>Navn</td><td>" + element.navn + "</td></tr>";
+                        txt += "<tr><td>Køn</td><td>" + element.køn + "</td></tr>";
+
+                        txt += "</table><br>"
+                    }
+
+                    if (sel === "bookinger") {
+                        txt += "<table border='1'>"
+                        
+                        let element = myObj[sel][i];
+                        txt += "<tr><td>Dato</td><td>" + element.dato + "</td></tr>";
+                        txt += "<tr><td>Tid</td><td>" + element.tid + "</td></tr>";
+                        txt += "<tr><td>Bruger</td><td>" + element.bruger + "</td></tr>";
+                        txt += "<tr><td>Bil</td><td>" + element.bil + "</td></tr>";
+
+                        txt += "</table><br>"
+                    }
+                }
+
+                
+                document.getElementById("demo").innerHTML = txt;
+            }
+        };
+        xmlhttp.open("GET", "samlet.json", true);
+        xmlhttp.setRequestHeader("Content-type", "application/json");
+        xmlhttp.send("x=" + dbParam);
+    }
+</script>
