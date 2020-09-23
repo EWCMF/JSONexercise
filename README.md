@@ -4,6 +4,6 @@ Et Express project hvor json data bliver fodret til html. Det kører på localho
 
 Eksempler på Kode
 
-![Alt text](./billeder/billede1.png)
+![Alt text](./billeder/billede1.PNG)
 
-![Alt text](./billeder/billede2.png)
+![Alt text](./billeder/billede2.PNG)
