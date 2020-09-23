@@ -17,7 +17,6 @@
             if (this.readyState == 4 && this.status == 200 || this.status == 304) {
                 myObj = JSON.parse(this.responseText);
                 
-
                 for (i = 0; i < myObj[sel].length; i++) {
                     if (sel === "biler") {
                         txt += "<table border='1'>"
