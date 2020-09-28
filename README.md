@@ -1,5 +1,7 @@
 # JSONexercise
 
+---
+
 ### Opdatering 28/09/20
 <p>Der er nu tre sider: index, lease og liste. <br>
 Startsiden har nu to knapper til to routes: En der viser GET metode og en der viser POST. <br>
