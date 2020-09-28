@@ -1,0 +1,14 @@
+  
+<h1>Sæt en bil til leasing.</h1>
+<p>Indtast bilens data:</p>
+<form style="border: black solid 1px;" method="POST" action="/lease/success">
+    <label>Navn </label><input id="bilNavn" type="text" name="navn"><br />
+    <label>Farve </label><input id="bilFarve" type="text" name="farve"><br />
+    <label>Type </label>
+        <select id="bilType" name="type">
+            <option value="Sedan">Sedan</option>
+            <option value="Hatchback">Hatchback</option>
+            <option value="SUV">SUV</option>
+        </select><br />
+    <button type="submit">Indsend</button>
+</form>
