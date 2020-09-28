@@ -3,7 +3,7 @@
 ---
 
 ### Opdatering 28/09/20
-<p>Der er nu tre sider: index, lease og liste. <br>
+<p>Der er nu tre routes: index, lease og liste. <br>
 Startsiden har nu to knapper til to routes: En der viser GET metode og en der viser POST. <br>
 Listen er på liste route'en og er uændret fra før. Denne tilgås fra højre knap. <br>
 Den venstre knap er til en ny lease route hvor data kan indtastes og derefter gemmes i den samlet JSON fil. <br>
