@@ -21,18 +21,13 @@ router.post('/success', function(req, res, next) {
         
         json.biler.push({"navn": navn, "farve": farve, "type": type});
 
-        console.log(JSON.stringify(json.biler));
-
         fs.writeFile("./public/data/samlet.json", JSON.stringify(json, null, 4), function(err) {
             if (err) {
                 console.log(err.message);
-                return;
             }
-            console.log(JSON.stringify(json));
         })
     });
     
-
     res.render('success', { title: 'Success'});
   });
 
