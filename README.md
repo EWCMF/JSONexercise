@@ -2,6 +2,13 @@
 
 ---
 
+### Opdatering 05/10/20
+<p>Programmet er blevet dockerized. <br>
+Der er en docker-compose.yml fil så programmet kan startet med kommandoen: docker-compose up. <br>
+Listen er på liste route'en og er uændret fra før. Denne tilgås fra højre knap.</p>
+
+---
+
 ### Opdatering 28/09/20
 <p>Der er nu tre routes: index, lease og liste. <br>
 Startsiden har nu to knapper til to routes: En der viser GET metode og en der viser POST. <br>
