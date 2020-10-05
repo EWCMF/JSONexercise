@@ -4,7 +4,7 @@
 
 ### Opdatering 05/10/20
 <p>Programmet er blevet dockerized. <br>
-Der er en docker-compose.yml fil så programmet kan startes med kommandoen: docker-compose up. <br>
+Der er en docker-compose.yml fil så programmet kan startes med kommandoen: docker-compose up når du er inde i projektets mappe. <br>
 Fra Docker kører den på port 49162.</p>
 
 ---
