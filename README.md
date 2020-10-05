@@ -4,7 +4,7 @@
 
 ### Opdatering 05/10/20
 <p>Programmet er blevet dockerized. <br>
-Der er en docker-compose.yml fil så programmet kan startet med kommandoen: docker-compose up. <br>
+Der er en docker-compose.yml fil så programmet kan startes med kommandoen: docker-compose up. <br>
 Listen er på liste route'en og er uændret fra før. Denne tilgås fra højre knap.</p>
 
 ---
